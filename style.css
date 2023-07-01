@@ -1,0 +1,484 @@
+.header{
+    position: relative;
+    flex-wrap: wrap;
+}
+.top{
+    flex-wrap: wrap;
+}
+.flex{
+    width: 1500px;
+    margin: 15px auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+.flex h2{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.search{
+    position: relative;
+}
+.bi{
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 16px;
+}
+.flex input{
+    margin-left: 165px;
+    width: 300px;
+    height: 40px;
+    border-radius: 45px;
+    border: 2px solid gray;
+    text-align: center;
+    background: transparent;
+    flex-wrap: wrap;
+}
+.airbnb-img{
+    width: 103px;
+    height: 45px;
+    object-fit: contain;
+    justify-content: space-between;
+}
+.profilelogo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.border{
+    margin-right: 20px;
+    border: 2px solid gray;
+    padding: 8px 16px;
+    border-radius: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+.border:hover{
+    background: gray;
+    color: white;
+}
+.toggle{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    width: 400px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.search-icon-div{
+    align-items: center;
+}
+.fa.solid{
+    padding: 40px auto;
+}
+.navbar{
+    background: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.farm img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+    position: sticky;
+}
+.farm p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.rooms img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.rooms p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.views img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.views p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.domes img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.domes p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.off img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.off p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.pools img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.pools p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.beach img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.beach p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.country img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.country p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.omg img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.omg p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.Cabins img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.Cabins p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.lake img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.lake p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.homes img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.homes p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+.bed img{
+    width: 35px;
+    margin-left: 19px;
+    margin-top: 25px;
+}
+.bed p{
+    margin-left: 19px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    background: white;
+}
+#container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin-left: 19px;
+}
+.card-img{
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 19px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    margin-bottom: -19px;
+}
+.detail h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img2{
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 19px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    margin-bottom: -19px;
+}
+.detail h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img3{
+    margin-top: 40px;
+    width: 355px;
+    margin-left: 19px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    margin-bottom: -19px;
+}
+.detail3 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img4{
+    margin-top: 40px;
+    width: 410px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place4{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.detail4 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img5{
+    margin-top: 40px;
+    width: 375px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place5{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.detail5 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img6{
+    margin-top: 40px;
+    width: 355px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place6{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail6{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.detail6 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img7{
+    margin-top: 40px;
+    gap: 10px;
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place7{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail7{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.detail7 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img8{
+    margin-top: 40px;
+    width: 435px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place8{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail8{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.detail8 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+.card-img9{
+    margin-top: 40px;
+    width: 355px;
+    display: inline;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.place9{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+.detail9{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 19px;
+    margin-bottom: -19px;
+}
+.detail9 h4,p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -19px;
+}
+
